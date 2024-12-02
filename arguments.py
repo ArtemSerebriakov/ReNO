@@ -9,13 +9,13 @@ def parse_args():
         "--cache_dir",
         type=str,
         help="HF cache directory",
-        default="/shared-local/aoq951/HF_CACHE/",
+        default="./cache",
     )
     parser.add_argument(
         "--save_dir",
         type=str,
         help="Directory to save images",
-        default="/shared-local/aoq951/ReNO/outputs",
+        default="./outputs",
     )
 
     # model and optim
